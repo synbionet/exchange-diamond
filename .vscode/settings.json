@@ -1,0 +1,10 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "search.exclude": {
+    "lib": true
+  },
+  "solidity.compileUsingLocalVersion": "/Users/dbryson/.soljson/soljson-v0.8.16+commit.07a7930e.js",
+  "solidity.defaultCompiler": "localFile",
+  "solidity.formatter": "forge"
+}
