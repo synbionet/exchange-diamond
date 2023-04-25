@@ -10,7 +10,6 @@ uint256 constant RESOLVE_EXPIRES = 30 days;
 /// @dev The calldata to Exchange.initialize()
 /// TODO: Add Service info
 struct ExchangeArgs {
-    address seller;
     address buyer;
     address moderator;
     uint16 moderatorPercentage;
@@ -29,6 +28,7 @@ enum ExchangeState {
 
 struct Exchange {
     uint256 id;
+    uint256 serviceId;
     ExchangeState state;
     address buyer;
     address seller;
